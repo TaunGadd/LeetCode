@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Palindrome.Number", "9_Palindrome.Number\9_Palindrome.Number.csproj", "{1F99D89A-32B3-47AD-B75B-EE2AA772BE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Palindrome.Number", "9_Palindrome.Number\9_Palindrome.Number.csproj", "{1F99D89A-32B3-47AD-B75B-EE2AA772BE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Zigzag.Conversion", "6_Zigzag.Conversion\6_Zigzag.Conversion.csproj", "{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F99D89A-32B3-47AD-B75B-EE2AA772BE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F99D89A-32B3-47AD-B75B-EE2AA772BE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F99D89A-32B3-47AD-B75B-EE2AA772BE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
