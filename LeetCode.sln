@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Palindrome.Number", "9_Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_Zigzag.Conversion", "6_Zigzag.Conversion\6_Zigzag.Conversion.csproj", "{B2F7B6B8-C0A0-4D86-B0BA-DF82F54DA0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Container.WithMostWater", "11_Container.WithMostWater\11_Container.WithMostWater.csproj", "{38101C30-3F5E-429C-8BBB-737B57279D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Container.WithMostWater", "11_Container.WithMostWater\11_Container.WithMostWater.csproj", "{38101C30-3F5E-429C-8BBB-737B57279D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_LongestPalindromicString", "5_LongestPalindromicString\5_LongestPalindromicString.csproj", "{5AC9D6FA-4F80-46B7-AE74-5B3FEB6546C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{38101C30-3F5E-429C-8BBB-737B57279D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38101C30-3F5E-429C-8BBB-737B57279D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38101C30-3F5E-429C-8BBB-737B57279D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC9D6FA-4F80-46B7-AE74-5B3FEB6546C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC9D6FA-4F80-46B7-AE74-5B3FEB6546C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC9D6FA-4F80-46B7-AE74-5B3FEB6546C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC9D6FA-4F80-46B7-AE74-5B3FEB6546C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
