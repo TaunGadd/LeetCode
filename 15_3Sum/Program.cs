@@ -1,0 +1,75 @@
+﻿var solution = new Solution();
+int[] input = { -1, 0, 1, 2, -1, 4};
+
+solution.Print2DArray(solution.ThreeSum(input));
+
+public class Solution
+{
+    public IList<IList<int>> ThreeSum(int[] nums)
+    {
+        var result = new List<IList<int>>();
+
+        if (nums.Length < 3) return result;
+
+        Array.Sort(nums);
+
+        for (int i = 0; i < nums.Length - 2; i++)
+        {
+            if (i > 0 && nums[i] == nums[i - 1])
+            {
+                continue;
+            }
+
+            var left = i + 1;
+            var right = nums.Length - 1;
+
+            while (left < right)
+            {
+                var sum = nums[i] + nums[left] + nums[right];
+
+                if (sum == 0)
+                {
+                    result.Add(new List<int> { nums[i], nums[left], nums[right] });
+
+                    while (left < right && nums[left] == nums[left + 1])
+                    {
+                        left++;
+                    }
+
+                    while (left < right && nums[right] == nums[right - 1])
+                    {
+                        right--;
+                    }
+
+                    left++;
+                    right--;
+                }
+                else if (sum < 0)
+                {
+                    left++;
+                }
+                else
+                {
+                    right--;
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public void Print2DArray(IList<IList<int>> arr)
+    {
+        Console.WriteLine('[');
+        foreach (var i in arr)
+        {
+            Console.Write('[');
+            foreach(var j in i)
+            {
+                Console.Write($"{j},");
+            }
+            Console.WriteLine(']');
+        }
+        Console.WriteLine(']');
+    }
+}
